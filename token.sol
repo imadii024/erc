@@ -4,7 +4,7 @@ pragma solidity ^0.8.18;
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 
-contract DegenToken is ERC20, Ownable {
+contract Token is ERC20, Ownable {
 
    constructor(address initialOwner) ERC20("token", "t") Ownable(initialOwner) {}
 
